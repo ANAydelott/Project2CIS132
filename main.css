@@ -9,6 +9,54 @@ body {
     background-color: #FFFFF0;
 }
 
+div.gallery {
+    border: 5px solid black;
+  }
+  
+  div.gallery:hover {
+    border: 5px solid #800020;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 20.99999%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
 .butler-background {
     background-image: url(butler.jpg);
     background-size: cover;
@@ -47,7 +95,7 @@ fieldset {
 main {
     border-radius: 10px;
     height:84vh;
-    width:49vw;
+    width:90vw;
     min-width:49vw;
     background-color: #F5F5DC;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
@@ -83,18 +131,38 @@ input {
 input[type="submit"] {
     background-color: black; 
     font-weight: bold;
+    width:25em;
     font-variant:small-caps;
     margin-left: 30%;
     font-size: 120%;
     color: #FFFFF0; 
-    padding: 10px 20px;
+    padding: .25em 1em;
     border: none;
-    border-radius: 5px;
+    border-radius: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 input[type="submit"]:hover {
+    background-color: #800020;
+}
+
+input[type="reset"] {
+    background-color: black; 
+    font-weight: bold;
+    font-variant:small-caps;
+    width: 25em;
+    margin-left: 30%;
+    font-size: 120%;
+    color: #FFFFF0; 
+    padding: .25em 1em;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="reset"]:hover {
     background-color: #800020;
 }
 
@@ -164,6 +232,10 @@ header {
 
   h2 {
     text-align: center;
+    font-size: 200%;
+    font-variant:small-caps;
+    padding: 0;
+    margin: .5em 0 1em 0;
   }
 
   #footer_nav {
