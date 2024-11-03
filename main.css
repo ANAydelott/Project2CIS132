@@ -21,10 +21,10 @@ body {
 }
 
 .card-group {
-    max-width: 400px;
+    max-width: 200px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 250px) {
   .card-group .card {
     flex: 1 1 100%;
   }
