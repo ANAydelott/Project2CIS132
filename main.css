@@ -122,6 +122,7 @@ main {
     width:90vw;
     min-width:49vw;
     background-color: #F5F5DC;
+    overflow: auto;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
