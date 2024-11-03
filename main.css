@@ -20,7 +20,12 @@ body {
   border: 1px solid #ddd; 
 }
 
-.accordion-header {
+@media (max-width: 768px) {
+  .card-group .card {
+    flex: 1 1 100%;
+  }
+}
+.accordion-header h2 {
     background-color: #800020;
     color: white; 
 }
