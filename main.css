@@ -9,6 +9,17 @@ body {
     background-color: #FFFFF0;
 }
 
+#accordionExample {
+  width: 80%;
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+#accordionExample .accordion-item {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd; 
+}
+
 div.gallery {
     border: 5px solid black;
   }
