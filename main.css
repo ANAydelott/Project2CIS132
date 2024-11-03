@@ -23,6 +23,7 @@ body {
 .card-group {
     max-width: 200px;
     float: left;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 250px) {
