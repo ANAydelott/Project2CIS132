@@ -20,6 +20,11 @@ body {
   border: 1px solid #ddd; 
 }
 
+#accordion-header {
+    background-color: #800020;
+    color: white; 
+}
+
 div.gallery {
     border: 5px solid black;
   }
