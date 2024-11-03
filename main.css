@@ -25,6 +25,7 @@ body {
     float: left;
     gap: 20px;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 @media (max-width: 250px) {
