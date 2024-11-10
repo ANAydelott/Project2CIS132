@@ -79,8 +79,19 @@ article {
 
 article h2 {
     font-size: 170%;
-    margin-top: 0;
+    margin-top: 1em;
     column-span: all;
+}
+
+article p {
+    margin-top: 0;
+    margin-bottom: .5em;
+}
+
+article img {
+    float: right;
+    width: 200px;
+    margin: 0 1.5em 1em 0;
 }
 
 .butler-background {
@@ -97,7 +108,7 @@ article h2 {
     color:white;
     background-repeat: no-repeat;
     background-attachment:fixed;
-}
+}    
 
 .butler-background h3{
     background-color: black;
