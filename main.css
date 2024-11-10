@@ -85,11 +85,14 @@ article h2 {
 
 article p {
     margin-top: 0;
+    margin-right: .5em;
     margin-bottom: .5em;
+    text-indent: 1em;
+    
 }
 
 article img {
-    float: right;
+    float: left;
     margin: 0 1.5em 1em 0;
 }
 
