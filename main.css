@@ -72,6 +72,16 @@ div.gallery {
     clear: both;
   }
 
+article {
+    column-count: 2;
+    columb-gap: 35px;
+}
+
+article h2 {
+    font-size: 170%;
+    margin-top: 0;
+    column-span: all;
+}
 
 .butler-background {
     background-image: url(butler.jpg);
