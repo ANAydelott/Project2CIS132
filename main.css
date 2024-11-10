@@ -120,7 +120,8 @@ fieldset {
 
 main {
     border-radius: 10px;
-    width:90vw;
+    width:100vw;
+    height:80vw;
     min-width:49vw;
     background-color: #F5F5DC;
     overflow: auto;
