@@ -74,7 +74,7 @@ div.gallery {
 
 article {
     column-count: 2;
-    columb-gap: 35px;
+    column-gap: 35px;
 }
 
 article h2 {
